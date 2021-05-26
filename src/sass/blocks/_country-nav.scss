@@ -1,0 +1,53 @@
+.country-nav{
+    padding-top: 19px;
+    .container{
+        display: grid;
+        grid-template-columns: repeat(5 , 229px);
+        column-gap: 33px;
+        justify-content: center;
+    }
+    min-height: 85px;
+    &__block{
+        display: grid;
+        grid-template-columns: 28px  190px;
+        column-gap: 11px ;
+    }
+    &__wrapper{
+        width: 28px;
+        height: 21px;
+    }
+    &__img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    &__country{
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #242424;
+    }
+    &__tel{
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 300;
+        color: #242424;
+        &:hover{
+            color: blue;
+        }
+    }
+    &__addres{
+        font-size: 12px;
+        font-weight: 300;
+        color: #242424;
+    }
+    &__mail{
+        text-decoration: none;
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+        &:hover{
+            color: blue;
+        }
+    }
+}

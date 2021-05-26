@@ -1,0 +1,17 @@
+.hamburger{
+    display: none;
+    position: fixed;
+    z-index: 10;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    &__elem{
+        width: 34px;
+        height: 4px;
+        background-color: #00c2f0 ;
+        margin-bottom: 6px;
+    }
+    &.active{
+        display: none;
+    }
+}

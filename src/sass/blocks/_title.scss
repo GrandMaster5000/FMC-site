@@ -1,0 +1,17 @@
+.title{
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 900;
+    color: #ffffff;
+    &_black{
+        font-size: 48.1px;
+        line-height: 30px;
+        font-weight: 700;
+        color: #393939;
+    }
+    &_fz30{
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+    }
+}

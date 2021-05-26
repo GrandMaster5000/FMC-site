@@ -1,0 +1,27 @@
+.solution{
+    min-height: 889px;
+    padding-top: 79px;
+    background: url('../../img/bg/bg_2.jpg') center center / cover no-repeat;
+    &__block{
+        margin: 25px auto 36px auto;
+        padding: 26px 32px;
+        width: 843px;
+        height: 64px;
+        border: 1px solid #ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link{
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 400;
+        color: #ffffff;
+        transition: all .6s;
+        text-decoration: none;
+        &:hover{
+            font-weight: 700;
+            color: var(--main-color);
+        }
+    }
+}

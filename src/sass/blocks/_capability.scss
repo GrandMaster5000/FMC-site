@@ -1,0 +1,56 @@
+.capability{
+    min-height: 896px;
+    padding: 79px 0 79px 0;
+    &__wrapper{
+        display: grid;
+        grid-template: 255px 133px 255px / repeat(3 , 360px);
+        column-gap: 31px;
+        row-gap: 50px;
+    }
+    &__block{
+        width: 360px;
+        height: 255px;
+        padding-top: 176px;
+        padding: 176px 91px 0 91px;
+        &_bg1{
+            background: url('../img/bg/icon_bg1-min.png');
+        }
+        &_bg2{
+            background: url('../img/bg/icon_bg2-min.png');
+        }
+        &_bg3{
+            background: url('../img/bg/icon_bg3-min.png');
+            padding: 176px 63px 0 63px;
+        }
+        &_bg4{
+            background: url('../img/bg/icon_bg4-min.png');
+            padding: 176px 53px 0 53px;
+        }
+        &_bg5{
+            background: url('../img/bg/icon_bg5-min.png');
+            padding: 176px 63px 0 63px;
+        }
+        &_bg6{
+            background: url('../img/bg/icon_bg6-min.png');
+            padding: 176px 63px 0 63px;
+        }
+    }
+    &__descr{
+        text-align: center;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 300;
+        color: #393939;
+        &_fontw700{
+            font-weight: 700;
+        }
+    }
+    &__cover{
+        grid-column: 1/4;
+        justify-self: center;
+        text-align: center;
+    }
+    &__row{
+        margin-bottom: 33px;
+    }
+}
