@@ -1,0 +1,14 @@
+.start{
+    min-height: 690px;
+    padding-top: 80px;
+    &__img{
+       img{
+           display: block;
+           margin: 0 auto;
+           margin-bottom: 74px;
+       }
+    }
+    &__title{
+        margin-bottom: 30px;
+    }
+}
