@@ -8,20 +8,41 @@
         width: 843px;
         height: 64px;
         border: 1px solid #ffffff;
+        border-radius: 5px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     &__link{
+        position: relative;
         font-size: 14px;
         line-height: 25px;
         font-weight: 400;
         color: #ffffff;
         transition: all .6s;
         text-decoration: none;
+        &::before{
+            content: '';
+            position: absolute;
+            border-radius: 100%;
+            width: 1px;
+            height: 49px;
+            top: -12px;
+            right: -24px;
+            background: #fff;
+        }
+        &:nth-child(6){
+            &::before{
+                display: none;
+            }
+        }
         &:hover{
             font-weight: 700;
             color: var(--main-color);
         }
+    }
+    &__img{
+        display: flex;
+        justify-content: center;
     }
 }
