@@ -122,7 +122,13 @@
         &__title{
             font-size: 22px;
         }
-    }    
+    } 
+    .footer{
+        &__wrapper{
+            grid-template: repeat(2 , minmax(150px , auto)) / repeat(2 , minmax(160px , auto));
+            row-gap: 10px;
+        }
+    }   
 
 }   
 @media (max-width:768px){
@@ -189,6 +195,12 @@
         &__title{
             font-size: 21px;
         }
+    }
+    .footer{
+        &__link{
+            line-height: 19px;
+            font-size: 12px;
+        }
     }    
 }
 @media (max-width:576px){
@@ -234,5 +246,16 @@
             grid-template: minmax(90px,auto)/repeat(2,176px);
             column-gap: 15px;
         }
-    }    
+    }  
+    .footer{
+        &__picture{
+            display: none;
+        }
+        &__descr{
+            font-size: 12px;
+        }
+        &__wrapper{
+            column-gap: 20px;
+        }
+    }  
 }
